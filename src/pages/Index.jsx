@@ -11,7 +11,7 @@ const transactions = [
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
       <Card className="w-full max-w-4xl mx-auto">
         <CardHeader>
           <CardTitle className="text-center text-2xl">Budgeting App</CardTitle>
